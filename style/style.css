@@ -32,7 +32,7 @@ body {
 }
 
 .content-wrapper {
-    width: 600px;
+    width: 800px;
     margin: 0 auto;
     background-color: white;
 }
@@ -74,20 +74,24 @@ body {
     padding-left : 50px ; 
 }
 .section-title {
-    padding-bottom : 10px; 
+    color: #2e2f31;
 }
 
 .tasks { 
 list-style : none ; 
+
 }
 
+.task {
+    padding : 15px; 
+}
 .status {
      width: 22px;
   height: 22px;
   border-radius:50%;
   font-size: 14px;
   line-height: 1;
-  padding : 4px;
+  padding : 4px; 
 }
 
 .status.done {
@@ -95,10 +99,60 @@ list-style : none ;
     border: 1px solid green ; 
 }
 
+.status.cancel {
+    color:red;
+    border : 1px solid red;
+}
+
 .editorial {
     background-color: #64a2ff;
-    padding : 10px ; 
-    border-radius: 10px;
+    padding : 8px 14px;
+    border-radius: 12px;
     color: white ; 
-    font-size : 12px; 
+    font-size: 10px;
+    font-weight: bold ; 
+}
+
+.q1-goals {
+    background-color: #6b3df1;
+     padding : 8px 14px;
+    border-radius: 12px;
+    color:white;
+    font-size: 10px;
+    font-weight: bold ; 
+}
+.recruiting {
+    background-color: #1f9d63;
+     padding : 8px 14px;
+    border-radius: 12px;
+    color:white;
+   font-size: 10px;
+    font-weight: bold ; 
+}
+
+.mobile {
+    background-color: #f7931a; 
+    padding : 8px 14px;
+    border-radius: 12px;
+    color:white;
+    font-size: 10px;
+    font-weight: bold ; 
+}
+
+.website {
+    background-color: #d2397b; 
+    padding : 8px 14px;
+    border-radius: 12px;
+    color:white;
+    font-size: 10px;
+    font-weight: bold ; 
+}
+
+.sales {
+    background-color: #6aa41a; 
+    padding : 8px 14px;
+    border-radius: 12px;
+    color:white;
+    font-size: 10px;
+    font-weight: bold ; 
 }
