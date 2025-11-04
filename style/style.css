@@ -65,3 +65,40 @@ body {
     color: #d1d5db;
     border-color: #d1d5db;
 }
+
+.block {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.list {
+    padding-left : 50px ; 
+}
+.section-title {
+    padding-bottom : 10px; 
+}
+
+.tasks { 
+list-style : none ; 
+}
+
+.status {
+     width: 22px;
+  height: 22px;
+  border-radius:50%;
+  font-size: 14px;
+  line-height: 1;
+  padding : 4px;
+}
+
+.status.done {
+    color: green; 
+    border: 1px solid green ; 
+}
+
+.editorial {
+    background-color: #64a2ff;
+    padding : 10px ; 
+    border-radius: 10px;
+    color: white ; 
+    font-size : 12px; 
+}
